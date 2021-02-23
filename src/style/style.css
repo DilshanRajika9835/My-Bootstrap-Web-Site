@@ -1,0 +1,72 @@
+
+.header_area .nav-item .nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1rem;
+    color: black;
+}
+main .details{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.details .about{
+    position: relative;
+    margin-top: 60px;
+}
+.details .about > h3{
+    font-weight: 600;
+
+
+}
+
+.details .about button{
+    font-weight: 500;
+    background: transparent;
+    border: 1px solid #7170ff;
+    border-radius: 5px;
+}
+.details .about button a:hover {
+    color: #f6f3f3;
+
+}
+.details .about button:hover {
+    color: white;
+    background: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+}
+
+
+
+main .about_me .my_self .myself_title,#projects{
+    font-weight: 600;
+    padding: 0;
+    font-family: "Bell MT", serif;
+    margin:0;
+
+}
+main .about_me .my_self button{
+    font-size: 15px;
+    font-weight: 300;
+    border: 1px solid #7170ff;
+    height: 30px;
+    margin: 4px;
+    box-shadow: 1px 1px 6px #323131;
+}
+main .about_me .my_self .btn-3{
+    color: white;
+    background: linear-gradient(90deg,#4458dc 0%,#854fee 100%);
+}
+/*========================================================*/
+
+.my_Name:first-letter{
+    font-size: 25px;
+
+
+
+}
+.my_Name{
+    font-family: 'Merriweather', serif;
+    font-size: 1.1rem;
+    text-align: justify;
+    margin: 1px;
+}
