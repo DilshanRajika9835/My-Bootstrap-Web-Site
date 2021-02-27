@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style/css/bootstrap.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/fontAwesome/css/all.min.css">
-    <link rel="icon" href="#" color="white">
+    <link rel="icon" href="img/webIcon.png" >
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, nitial-scale=0 maximum-scale=0.5 ">
     <meta name="description" content="Software Engineering Dilshan Rajika Withanachchi IJSE Sri Lanka Peoples ">
@@ -17,33 +17,35 @@
 </head>
 <body>
 <header class="header_area">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark position-fixed w-100" style="z-index: 6">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="40"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand" href="index.html"><img src="img/HomeIcon.png" width="40" alt="home Icon"></a>
+            <button  class="navbar-toggler text-light " type="button" data-bs-toggle="collapse"
+                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span ><i class="fa fa-bars fs-1" aria-hidden="true"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="about" role="button"
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="about" role="button"
                            data-bs-toggle="dropdown" aria-expanded="false">About</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="About_Me.html">About_Me</a></li>
-                            <li><a class="dropdown-item" href="Education.html">Education</a></li>
-                            <li><a class="dropdown-item" href="Certificates.html">Certificates/Diploma</a></li>
+                        <ul class="dropdown-menu bg-dark " id="drop_menue1" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item  text-light " href="About_Me.html">About_Me</a></li>
+                            <li><a class="dropdown-item text-light" href="Education.html">Education</a></li>
+                            <li><a class="dropdown-item text-light" href="Skills.html">Skills</a></li>
+                            <li><a class="dropdown-item text-light" href="Certificates.html">Certificates/Diploma</a></li>
                         </ul>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="Projects.html">Projects</a>
+                        <a class="nav-link active text-light" aria-current="page" href="Projects.html">Projects</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="contact" role="button"
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="contact" role="button"
                            data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="mailto:dilshanrajitha1998@gmail.com">Sent_Email</a></li>
-                            <li><a class="dropdown-item" href="tel:0766681528">Contact_ME</a></li>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown" id="drop_menue2">
+                            <li><a class="dropdown-item text-light" href="mailto:dilshanrajitha1998@gmail.com">Sent_Email</a></li>
+                            <li><a class="dropdown-item text-light" href="tel:0766681528">Contact_ME</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -51,6 +53,7 @@
             </div>
         </div>
     </nav>
+
 </header>
 <main>
     <section class="about_me container-fluid">
@@ -183,13 +186,12 @@
         </div>
 
     </section>
-    <hr>
-    <section class="m-4" >
+    <section class=" bg-dark mt-3" >
         <div class="wrapper  container-fluid">
-            <div class="row justify-content-center">
-                <div class="text-center"><h3> Following Me On!</h3></div>
-                <div class="icon facebook  col-1 m-1">
-                    <div class="tooltip">Facebook</div>
+            <div class="row justify-content-center" >
+                <div class="text-center"><h3 class="text-light"> Following Me On!</h3></div>
+                <div class="icon facebook  col-1 m-1 " >
+                    <div class="tooltip ">Facebook</div>
                     <span > <a href="https://www.facebook.com/dilshan.rajitha.5205/"><i class="fa fa-facebook fs-1"></i></a>
                 </span>
                 </div>
@@ -214,9 +216,11 @@
                             class="fa fa-linkedin-square fs-1 text-info"></i></a></span>
                 </div>
                 <div class="m-1">
-                    <h6 class="text-center m-0"><small>Copyright © 2021 - Institute of Software Engineering</small></h6>
-                    <h6 class="text-center m-0"> <small>All Rights Reserved</small></h6>
-                    <h6 class="text-center m-0"><small>Developed by:Dilshan|Rajika|Withanachchi</small></h6></div>
+                    <h6
+                            class="text-center m-0 text-light"><small>Copyright © 2021 - Institute of Software
+                        Engineering</small></h6>
+                    <h6 class="text-center m-0 text-light"> <small>All Rights Reserved</small></h6>
+                    <h6 class="text-center m-0 text-light"><small>Developed by:Dilshan|Rajika|Withanachchi</small></h6></div>
             </div>
 
         </div>

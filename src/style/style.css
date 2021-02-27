@@ -25,6 +25,8 @@ main .details{
     background: transparent;
     border: 1px solid #7170ff;
     border-radius: 5px;
+    height: 43px;
+    width: 130px;
 }
 .details .about button a:hover {
     color: #f6f3f3;
@@ -51,6 +53,7 @@ main .about_me .my_self button{
     height: 30px;
     margin: 4px;
     box-shadow: 1px 1px 6px #323131;
+
 }
 main .about_me .my_self .btn-3{
     color: white;
@@ -69,4 +72,14 @@ main .about_me .my_self .btn-3{
     font-size: 1.1rem;
     text-align: justify;
     margin: 1px;
+}
+section .wrapper .icon{
+    width: 4%;
+}
+#drop_menue1  li a:hover,#drop_menue2  li a:hover{
+color: #0c0c0c!important;
+    font-weight: 400;
+}
+.text-light{
+    color: white;
 }
